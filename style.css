@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.box{border: 2px solid black;
+  background-color: red;
+}
+.container {
+  display: grid;
+  padding:  40px ;
+  height: 800px;
+  gap:5px ;
+  grid-template-areas: "naruto jiraya yagami itachi"
+                       "naruto genos genos  itachi"
+                       "naruto  zenitsu zenitsu itachi"
+                       "naruto sasuke boruto boruto"
+                       "tobi sasuke boruto boruto";
+}
+#b-1{
+  background:url("https://i.pinimg.com/736x/43/96/52/4396523e87de439f1c4ec9222d7784e0--naruto-wallpaper-ipod-wallpaper.jpg?b=t");
+  grid-area: naruto;
+  background-repeat: no-repeat;
+  background-size: 360px 600px ;
+}
+#b-2{
+  background: url("https://tse1.mm.bing.net/th?id=OIP.NK8Dl4tfCJ4VX9vJ3dQMNgHaEK&pid=Api&P=0&h=180");
+  grid-area: jiraya;
+
+}
+#b-3{
+  background: url("https://tse4.mm.bing.net/th?id=OIP.X5gZSImZTcSVaT3z4GLIyQHaF7&pid=Api&P=0&h=180");
+  grid-area: yagami ;
+  background-repeat: no-repeat;
+  background-size: 360px 140px ;
+}
+#b-4{
+  background: url("https://tse3.mm.bing.net/th?id=OIP.hWHiqrp51fcY1EwECA5KkwHaEK&pid=Api&P=0&h=180");
+  grid-area: zenitsu ;
+  background-repeat: no-repeat;
+  background-size: 730px 140px ;
+}
+#b-5{
+  background: url("https://tse1.mm.bing.net/th?id=OIP.sIseBWmkIyAwNh7M4wGm2wHaDF&pid=Api&P=0&h=180");
+  grid-area: genos;
+  background-repeat: no-repeat;
+  background-size: 730px 140px ;
+}
+#b-6{
+  background:url("https://c4.wallpaperflare.com/wallpaper/384/559/652/naruto-boruto-wallpaper-preview.jpg") ;
+  grid-area: boruto;
+  background-repeat: no-repeat;
+  background-size: 730px 300px ;
+}
+#b-7{
+  background: url("https://tse3.mm.bing.net/th?id=OIP.r4jW4wrwz6Eis8J6_xk_9AHaFj&pid=Api&P=0&h=180");
+  grid-area: sasuke;
+  background-repeat: no-repeat;
+  background-size: 360px 300px ;
+}
+#b-8{
+  background: url("https://tse4.mm.bing.net/th?id=OIP.59fVbVxgRQUljI5VdJAFeQHaEK&pid=Api&P=0&h=180");
+  grid-area: tobi;
+  background-repeat: no-repeat;
+  background-size: 360px 140px ;
+}
+#b-9{
+  background:url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Free-Download-Itachi-Image.jpg") ;
+  grid-area: itachi;
+  background-repeat: no-repeat;
+  background-size: 360px 500px ;
+}
+/* #b-10{
+  background:url("https://wallpapercave.com/wp/wp9110624.png") ;
+  grid-area: mikey;
+
+} */
